@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    background-color: #57d4ab;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.nav-links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+  .column {
+    float: left;
+    width: 16.66%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    color: #241b1b;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #57d4ab;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
