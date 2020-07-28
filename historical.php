@@ -13,7 +13,7 @@
                 <li><a href="page2.php">HOME</a></li>
                 <li><a href="index.php">LIVE DATA</a></li>
                 <li><a href="historical.php">HISTORICAL ANALYSIS</a></li>
-                <li><a href="saved.php">MY SAVED STOCKS</a></li>
+                <li><a href="saved_stocks.php">MY SAVED STOCKS</a></li>
                 
                 
             </ul>
